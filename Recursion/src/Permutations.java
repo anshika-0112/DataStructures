@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Permutations {
     static int count=0;
-    static void generatePermutation(String inputString,String ans)
+    static   void generatePermutation(String inputString,String ans)
     {
         if(inputString.length()==0)
         {
